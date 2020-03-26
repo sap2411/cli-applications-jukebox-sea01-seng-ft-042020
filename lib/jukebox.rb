@@ -28,9 +28,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   reply = gets.strip
   if (1..9).to_a.index(reply.to_i) != nil
-    puts "Playing #{songs[input.to_i - 1]}"
-  elsif songs.index(input) != nil
-    puts "Playing #{input}"
+    puts "Playing #{songs[reply.to_i - 1]}"
+  elsif songs.index(reply) != nil
+    puts "Playing #{reply}"
   else
     puts "Invalid input, please try again"
   end

@@ -27,10 +27,9 @@ def play(songs)
   reply = gets.strip
   songs
   if songs.include? reply
-    "Playing #{reply}"
-    
+    puts "Playing #{reply}"
   else
-    "Invalid input, please try again"
+    puts "Invalid input, please try again"
   end
 end
 

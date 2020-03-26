@@ -49,11 +49,10 @@ def run(songs)
       break
     elsif input == "play"
       play(songs)
-    elsif input == "help"
-      help
     elsif input == "list"
       list(songs)
-    else
+    else input == "help"
+      help
     end
    }
 end

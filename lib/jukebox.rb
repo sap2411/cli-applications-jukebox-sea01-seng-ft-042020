@@ -25,6 +25,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   reply = gets.strip
+  songs
   if songs.include? reply
     "Playing #{reply}"
     

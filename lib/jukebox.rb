@@ -51,8 +51,9 @@ def run(songs)
       play(songs)
     elsif input == "help"
       help
-    else input == "list"
+    elsif input == "list"
       list(songs)
+    else
     end
    }
 end
